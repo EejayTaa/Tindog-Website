@@ -1,0 +1,159 @@
+
+#title{
+    background-color: #ff4c68;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    text-transform: lowercase;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 2.5rem;
+
+}
+.nav-item{
+    margin: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+.container-fluid{
+    padding: 3% 15% 8%;
+
+}
+.row h1{
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+    margin-bottom: 45px;
+}
+h3{
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+}
+p{
+    color: #8f8f8f;
+}
+
+#testimonials h2{
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    font-weight: 200;
+}
+.fab{
+    padding-right: 5px;
+}
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+
+#apple-pic{
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 30%;
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index:1;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+.fa-check-circle, .fa-bullseye, .fa-heart{
+    font-size: 55px;
+    margin: 0 0 8px 0;
+    color: #ef8172;
+    padding-bottom: 1rem;
+}
+
+.fa-check-circle:hover, .fa-bullseye:hover, .fa-heart:hover{
+    color: red;
+}
+
+.btn-sgn{
+    margin-top: 55px;
+}
+
+/*Testimonials*/
+
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 25px;
+}
+.press-logo{
+    width: 15%;
+    padding: 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 0 15%;
+}
+
+/* Pricing */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+
+.card{
+    height: 350px;
+}
+
+@media(max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    #apple-pic{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/*Footer*/
+#cta{
+    background-color:#ff4c68;
+    align-items: center;
+    text-align: center;
+}
+
+#cta h3{
+    padding: 7% 15% 4% 15%;
+    font-size: 3.5rem;
+    color: #fff;
+}
+
+.btn-footer{
+    margin: 0 9px 80px 0;  
+}
+#footer{
+    text-align: center;
+    background-color: #fff;
+}
+
+.sc-media{
+    margin: 7% .5% 2% .5%;
+}
